@@ -1,0 +1,17 @@
+.client{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.clientCont{
+    width: 200px;
+}
+.client img{
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .client{
+flex-direction: column;
+gap: 40px;
+    }
+    }

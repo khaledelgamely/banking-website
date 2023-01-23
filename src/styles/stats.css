@@ -1,0 +1,22 @@
+.stats{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.stats-cont{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+@media screen and (max-width: 650px) {
+.stats{
+    gap: 20px;
+    flex-direction: column;
+}
+.stats-cont{
+    min-width: 255px;
+}
+}

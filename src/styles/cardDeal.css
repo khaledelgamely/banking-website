@@ -1,0 +1,39 @@
+.cardDeal {
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    gap: 40px;
+}
+.cardDealDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    flex: 1;
+}
+.cardDealDetails h1{
+    color: #fff;
+    font-size: 55px;
+}
+.cardDealDetails p{
+    color: rgb(205, 205, 205);
+    font-size: 22px;
+    width: 80%;
+}
+.cardDealStats{
+    flex: 1;
+}
+.cardDealStats img {
+    width: 100%;
+}
+@media screen and (max-width: 900px) {
+    .cardDeal{
+        flex-direction: column;
+    }
+    .cardDealDetails h1{
+        font-size: 30px;
+    }
+    .cardDealDetails p{
+        font-size: 17px;
+    }
+    }
